@@ -1,3 +1,4 @@
+//Uppercase and Lowercase in Golang
 package main
 
 import (
@@ -10,5 +11,6 @@ func main() {
 	s2 := "ANAND"
 	//print in uppercase
 	fmt.Println(strings.ToUpper(s))
+	//print in lowercase
 	fmt.Println(strings.ToLower(s2))
 }
